@@ -4,10 +4,10 @@
   "description": "A simple MCP server and client",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "client": "node client.js"
+    "start": "node client.js"
   },
   "dependencies": {
+    "@modelcontextprotocol/sdk": "latest",
     "ws": "^8.17.0",
     "uuid": "^9.0.1"
   }
