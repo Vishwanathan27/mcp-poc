@@ -1,0 +1,14 @@
+{
+  "name": "mcp-poc",
+  "version": "1.0.0",
+  "description": "A simple MCP server and client",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "client": "node client.js"
+  },
+  "dependencies": {
+    "ws": "^8.17.0",
+    "uuid": "^9.0.1"
+  }
+}
